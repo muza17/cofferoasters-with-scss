@@ -1,0 +1,98 @@
+.how-it-works{
+    padding-right: 85px;
+    padding-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+        
+    &__title{
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            margin-bottom: 80px;
+    }
+
+    &__line{
+        margin: 0;
+        width: 830px;  
+        height: 5px;
+        border: 1px solid #FDD6BA;
+        background-color: #FDD6BA;
+    }
+        
+    &__list{
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 64px;
+        padding: 0;
+    }    
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        margin-right: 95px;
+
+        &::before {
+
+            content: "";
+            margin-top: -20px;
+            width: 31px;
+            height: 31px;
+            border-radius: 50%;
+            background: #FEFCF7;
+            border: 2px solid #0E8784;
+        }
+        
+        &-numbers{
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FDD6BA;
+        }
+        &-title{
+            width: 255px;
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: #333D4B;
+        }
+        &-text{
+            width: 285px;
+            font-family: Barlow;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+        }
+    }        
+        
+
+    &__intro-button{
+        font-family: 'Fraunces', serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        padding: 15px 31px;
+        background: #0E8784;
+        border-radius: 6px;
+        border: none;
+
+        &:hover{
+            background-color:  #66D2CF;
+
+        }
+    }   
+    
+}
