@@ -1,0 +1,38 @@
+// border ishlamitti
+.intro2{
+    background-image: url(/images/Bitmapaboutus11x.png);
+    padding-bottom: 137px;
+    padding-top: 137px;
+    padding-left: 85px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    border-radius: 10px;
+    border-color: none;
+    margin-bottom: 168px;
+
+    &__title{
+        margin-bottom: 24px;
+        width: 493px;
+        font-family: 'Fraunces', serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+
+    &__text{
+        width: 445px;
+        height: 78px;
+        font-family: 'Barlow', sans-serif;
+        opacity: 0.8;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+    
+    
+}
+

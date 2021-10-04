@@ -222,7 +222,7 @@ img {
 
 .whychoosing__back-text {
   width: 540px;
-  font-family: Barlow;
+  font-family: 'Barlow';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -490,5 +490,225 @@ img {
 
 .footer__medias img:hover {
   color: #FDD6BA;
+}
+
+.intro2 {
+  background-image: url(/images/Bitmapaboutus11x.png);
+  padding-bottom: 137px;
+  padding-top: 137px;
+  padding-left: 85px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border-color: none;
+  margin-bottom: 168px;
+}
+
+.intro2__title {
+  margin-bottom: 24px;
+  width: 493px;
+  font-family: 'Fraunces', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.intro2__text {
+  width: 445px;
+  height: 78px;
+  font-family: 'Barlow', sans-serif;
+  opacity: 0.8;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.commitment {
+  padding-left: 85px;
+  padding-right: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 168px;
+}
+
+.commitment__img {
+  margin: 0;
+  width: 445px;
+  height: 520px;
+  border-radius: 8px;
+  border-color: none;
+}
+
+.commitment__img img {
+  border-radius: 8px;
+}
+
+.commitment__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.commitment__content h3 {
+  margin: 0;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin-bottom: 32px;
+}
+
+.commitment__content p {
+  margin: 0;
+  width: 540px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+}
+
+.quality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #2C343E;
+  margin-bottom: 180px;
+}
+
+.quality__back {
+  margin: 0;
+  background-color: #2C343E;
+  border-radius: 10px;
+  padding-top: 88px;
+  padding-left: 85px;
+  padding-bottom: 176px;
+}
+
+.quality__back-title {
+  margin: 0;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+}
+
+.quality__back-text {
+  margin: 0;
+  width: 540px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+.quality__image {
+  margin: 0;
+  width: 445px;
+  height: 474px;
+  border-radius: 8px;
+  margin-right: 85px;
+  position: relative;
+  margin-top: -100px;
+}
+
+.quality__image img {
+  border-radius: 8px;
+}
+
+.headquarters {
+  padding-right: 85px;
+  padding-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headquarters__title {
+  display: block;
+  font-family: 'Fraunces', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 80px;
+}
+
+.headquarters__list {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 64px;
+  padding: 0;
+}
+
+.headquarters__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 95px;
+}
+
+.headquarters__item-img {
+  width: 41px;
+  height: 41px;
+  margin-bottom: 45px;
+}
+
+.headquarters__item-title {
+  width: 272px;
+  font-family: 'Fraunces', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-bottom: 24px;
+}
+
+.headquarters__item-text {
+  margin: 0;
+  width: 285px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
 }
 /*# sourceMappingURL=style.css.map */

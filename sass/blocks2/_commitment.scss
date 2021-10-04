@@ -1,0 +1,51 @@
+// border ishlamayapti
+.commitment{
+    padding-left: 85px;
+    padding-right: 85px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 168px;
+
+    &__img{
+        margin: 0;
+        width: 445px;
+        height: 520px;
+        border-radius: 8px;
+        border-color: none;
+
+        & img{
+            border-radius: 8px; 
+        }
+    }
+
+    &__content{
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 90px;
+        padding-bottom: 90px;
+
+        & h3{
+            margin: 0;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #333D4B;
+            margin-bottom: 32px;
+        }
+
+        & p{
+            margin: 0;
+            width: 540px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            opacity: 0.8;
+        }
+    }
+}
