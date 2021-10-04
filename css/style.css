@@ -92,13 +92,13 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: none;
   margin-bottom: 136px;
 }
 
 .intro__title {
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   width: 493px;
   height: 145px;
   font-family: 'Fraunces', serif;
@@ -499,6 +499,7 @@ img {
   padding-left: 85px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
   border-color: none;
   margin-bottom: 168px;
@@ -594,13 +595,11 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #2C343E;
+  border-radius: 10px;
   margin-bottom: 180px;
 }
 
 .quality__back {
-  margin: 0;
-  background-color: #2C343E;
-  border-radius: 10px;
   padding-top: 88px;
   padding-left: 85px;
   padding-bottom: 176px;

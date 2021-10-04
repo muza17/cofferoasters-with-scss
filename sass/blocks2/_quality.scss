@@ -2,12 +2,10 @@
     display: flex;
     justify-content: space-between;
     background-color: #2C343E;
+    border-radius: 10px;
     margin-bottom: 180px;
 
     &__back{
-        margin: 0;
-        background-color: #2C343E;
-        border-radius: 10px;
         padding-top: 88px;
         padding-left: 85px;
         padding-bottom: 176px;
